@@ -1,0 +1,25 @@
+{
+    "name": "vendor/reminders",
+    "description": "PHP библиотека для управления напоминаниями",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "beta",
+    "authors": [
+        {
+            "name": "web",
+            "email": "your@email.here"
+        }
+    ],
+    "require": {
+        "losthost/db": "~3.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "losthost\\Reminders\\": "src/"
+        }
+    }
+    
+}
