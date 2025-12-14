@@ -6,8 +6,8 @@
     "minimum-stability": "beta",
     "authors": [
         {
-            "name": "web",
-            "email": "your@email.here"
+            "name": "Petros Ioannidis",
+            "email": "pio@pio.su"
         }
     ],
     "require": {
