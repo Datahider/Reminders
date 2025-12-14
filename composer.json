@@ -1,5 +1,5 @@
 {
-    "name": "vendor/reminders",
+    "name": "losthost/reminders",
     "description": "PHP библиотека для управления напоминаниями",
     "type": "library",
     "license": "MIT",
