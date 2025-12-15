@@ -19,7 +19,7 @@ class Reminder extends DBObject {
         'description' => 'TEXT COMMENT "Описание"',
         'remind_at'   => 'DATETIME NOT NULL COMMENT "Исходное время"',
         'remind_next' => 'DATETIME NOT NULL COMMENT "Следующее срабатывание"',
-        'status'      => 'ENUM("pending","done","cancelled") NOT NULL DEFAULT "pending"',
+        'status'      => 'VARCHAR(20) NOT NULL DEFAULT "pending"',
         'notified_at' => 'DATETIME COMMENT "Для клиента - когда отправлено уведомление"',
         'data1'       => 'VARCHAR(100) COMMENT "Данные клиента 1"',
         'data2'       => 'VARCHAR(100) COMMENT "Данные клиента 2"',
